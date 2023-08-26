@@ -118,6 +118,10 @@ body {
   justify-content: space-between;
 }
 
+.github{
+  text-decoration: none;
+}
+
 #herofooter a {
   color: #fff;
   text-transform: uppercase;

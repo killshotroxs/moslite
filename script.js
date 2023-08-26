@@ -92,3 +92,19 @@ document.querySelectorAll(".elem").forEach(function (elem) {
     });
   });
 
+// Get references to the circles you want to use for scrolling
+const scrollCircle1 = document.getElementById('scrollCircle1');
+const scrollCircle2 = document.getElementById('scrollCircle2');
+
+// Add click event listeners to the circles
+scrollCircle1.addEventListener('click', () => {
+    // Use the scrollIntoView() method to scroll to the content
+    document.querySelector('#herofooter').scrollIntoView({ behavior: 'smooth' });
+});
+
+scrollCircle2.addEventListener('click', () => {
+    // Use the scrollIntoView() method to scroll to the content
+    document.querySelector('#herofooter').scrollIntoView({ behavior: 'smooth' });
+});
+
+
