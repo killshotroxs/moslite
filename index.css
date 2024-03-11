@@ -25,12 +25,12 @@ body {
   background-color: #fff;
 }
 
-.bounding{
+.bounding {
   width: fit-content;
   overflow: hidden;
 }
 
-.boundingelem{
+.boundingelem {
   transform: translateY(100%);
 }
 
@@ -118,7 +118,7 @@ body {
   justify-content: space-between;
 }
 
-.github{
+.github {
   text-decoration: none;
 }
 
@@ -263,4 +263,19 @@ body {
   font-weight: 500;
   color: #fff;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  #heading h1 {
+    font-size: 5vw; 
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  #heading h1 {
+    font-size: 4vw;
+  }
+
+  /* Adjustments for other elements */
 }
